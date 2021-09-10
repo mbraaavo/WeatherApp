@@ -36,7 +36,7 @@ window.addEventListener("load", () => {
                 info.textContent = summary;
                 timezone.textContent = city;
                 country.textContent = origin;
-                img.src= ` http://openweathermap.org/img/wn/${icon}@2x.png`;
+                img.src= `https://openweathermap.org/img/wn/${icon}@2x.png`;
                 
                 if (temperature >= "85") {
                         background.classList.add("warm_gradient");
