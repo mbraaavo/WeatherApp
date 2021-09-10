@@ -15,9 +15,14 @@ body {
     font-family: sans-serif;
 }
 
-#main_stuff h1 {
+#main_stuff .header {
     color: #F8F4F9;
-    margin-bottom: 70px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.header h1 {
+    margin-bottom: 15px;
 }
 
 .spacer {  
@@ -37,9 +42,9 @@ body {
     justify-content: space-around;
     width: 40vw;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 35px;
     flex-direction: column;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 .city {
@@ -52,7 +57,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 80px;
-    margin-top: 30px;
+    margin-top: 5px;
 }
 
 .temp {
@@ -64,4 +69,19 @@ body {
 
  .temp .number {
      margin-right: 8px;
+ }
+
+ .warm_gradient {
+    background: rgb(247,181,56);
+    background: linear-gradient(326deg, rgba(247,181,56,1) 5%, rgba(219,124,38,1) 32%, rgba(216,87,42,1) 68%, rgba(195,47,39,1) 97%);
+ }
+
+ .nice_gradient {
+    background: rgb(199,249,204);
+    background: linear-gradient(326deg, rgba(199,249,204,1) 5%, rgba(128,237,153,1) 32%, rgba(87,204,153,1) 68%, rgba(56,163,165,1) 97%);
+ }
+
+ .cold_gradient {
+    background: rgb(190,233,232);
+    background: linear-gradient(326deg, rgba(190,233,232,1) 5%, rgba(98,182,203,1) 32%, rgba(95,168,211,1) 67%, rgba(27,73,101,1) 92%);
  }
